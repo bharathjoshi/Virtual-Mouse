@@ -1,13 +1,18 @@
 # Virtual-Mouse
 OS Required : This project can be made to run smootly on ubuntu  . Running this on mac  will raise problems as some functions in modules are not supported . Project smootly runs on mac based ubuntu , but we shall also install camera  boot drivers as web camera permission is not given to ubuntu .
+
 MODULES :
   Project is supported by opencv version 3.4.5.20. (the latest update was made on Jan 9 2019, 3.4.5.20 was upated to 4).Some functions were changed and modified in 4 . 
   We can install opencv 3.4.5.20 using                          pip install opencv-python==3.4.5.20
   We can install pynput module (version 1.4) using              pip install pynput
   We can install pyautogui module(version 0.9.39)  using        pip install PyAutoGUI
+
 To run the program firstly we shall  tape a dark -green coloured tape(rectangle shaped around 1 inch ) on our finger . 
+
 Precautions shall be taken that no object in the surroundings match to the color .(Sometimes the black color of our hair gets identified as dark green (based on brightness,webcam specifications))
+
 When you run the program , a tab appears (webcam application opens ) and you can see three rectangles . Formore details screenshots are available in image folder . 
+
 As you move your taped fingers in those boxes the cursor of mouse moves, left click right click happens 
 
 For Moving the mouse:
@@ -26,3 +31,4 @@ For Right Click :
   This project is not user-friendly as our hands (fingers) keep shaking and do not stay in the correct position . Bringing in other finger for other operations sometimes disturb the position of cursor . A lot of care shall be taken for clicks.
 
 	
+1
