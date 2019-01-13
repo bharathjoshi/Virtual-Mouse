@@ -2,21 +2,22 @@
 OS Required : This project can be made to run smootly on ubuntu  . Running this on mac  will raise problems as some functions in modules are not supported . Project smootly runs on mac based ubuntu , but we shall also install camera  boot drivers as web camera permission is not given to ubuntu .
 
 MODULES :
-  Project is supported by opencv version 3.4.5.20. (the latest update was made on Jan 9 2019, 3.4.5.20 was upated to 4).Some functions were changed and modified in 4 . 
+  Project is supported by opencv version 3.4.5.20. (the latest update was made on Jan 9 2019, 3.4.5.20 was updated to 4).Some functions were changed and modified in 4 . 
   We can install opencv 3.4.5.20 using                          pip install opencv-python==3.4.5.20
   We can install pynput module (version 1.4) using              pip install pynput
   We can install pyautogui module(version 0.9.39)  using        pip install PyAutoGUI
 
-To run the program firstly we shall  tape a dark -green coloured tape(rectangle shaped around 1 inch ) on our finger . 
+To run the program firstly we shall  tape a dark -green coloured tape(rectangle shaped around 1 inch ) on our finger .
+More details in the images folder
 
 Precautions shall be taken that no object in the surroundings match to the color .(Sometimes the black color of our hair gets identified as dark green (based on brightness,webcam specifications))
 
-When you run the program , a tab appears (webcam application opens ) and you can see three rectangles . Formore details screenshots are available in image folder . 
+When you run the program , a tab appears (webcam application opens ) and you can see three rectangles . For more details screenshots are available in image folder . 
 
 As you move your taped fingers in those boxes the cursor of mouse moves, left click right click happens 
 
 For Moving the mouse:
-	If we move any dark green object,preferably a small piece of tape applied on fingers in the blue rectangle , mouse goes to that position(the top left vertice of the rectangle) . We use the functions mouse.release , mouse.position here 
+	If we move any dark green object,preferably a small piece of tape applied on fingers in the blue rectangle , mouse goes to that position(the top left vertex of the rectangle) . 
 
 For Single click (LEFT CLICK) :
 	By holding our hand at the position where we want to left click( in the blue box ) we shall also bring another finger(taped with dark green ) on to left  pink box  
@@ -31,4 +32,3 @@ For Right Click :
   This project is not user-friendly as our hands (fingers) keep shaking and do not stay in the correct position . Bringing in other finger for other operations sometimes disturb the position of cursor . A lot of care shall be taken for clicks.
 
 	
-1
