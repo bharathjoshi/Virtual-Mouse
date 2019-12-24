@@ -1,5 +1,5 @@
 # Virtual Mouse
-OS Required : This project can be made to run smootly on ubuntu  . Running this on mac  will raise problems as some functions in modules are not supported . Project smootly runs on mac based ubuntu , but we shall also install camera  boot drivers as web camera permission is not given to ubuntu .
+OS Required: This project can be made to run smootly on ubuntu  . Running this on mac  will raise problems as some functions in modules are not supported . Project smootly runs on mac based ubuntu , but we shall also install camera  boot drivers as web camera permission is not given to ubuntu .
 
 MODULES :
   Project is supported by opencv version 3.4.5.20. (the latest update was made on Jan 9 2019, 3.4.5.20 was updated to 4).Some functions were changed and modified in 4 . 
